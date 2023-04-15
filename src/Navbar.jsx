@@ -68,6 +68,16 @@ const Navbar = ({ logo }) => {
                 <IconButton>Contact</IconButton>
               </NavLink>
             </li>
+
+            <li
+              onClick={handelClick}
+              style={{ transition: "all 0.5s ease 0.2s" }}
+            >
+              <NavLink exact activeClassName="active" to="/ticket">
+                <IconButton>Ticket</IconButton>
+              </NavLink>
+            </li>
+
           </ul>
         </nav>
       </div>
